@@ -4,7 +4,7 @@ const connectDB = require('./config/db');
 const expenseRoutes = require('./routes/expenseRoutes');
 const authRoutes = require('./routes/authRoutes');
 const errorHandler = require('./middlewares/errorMiddleware')
-const AppError = require('../utils/appError');
+const AppError = require('./utils/appError');
 
 // Initialize Express app
 const app = express();
